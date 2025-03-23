@@ -1,0 +1,14 @@
+{
+  "name": "freshness",
+  "version": "0.0.0",
+  "description": "Checks file freshness.",
+  "repository": "github:graysonlang/freshness",
+  "author": "Grayson Lang",
+  "license": "MIT-0",
+  "exports": {
+    ".": {
+      "import": "./freshness.mjs",
+      "require": "./freshness.cjs"
+    }
+  }
+}
